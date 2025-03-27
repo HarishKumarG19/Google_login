@@ -141,16 +141,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
 
-AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',
-    'allauth.account.auth_backends.AuthenticationBackend',
-]
-
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'APP': {
-            'client_id': 'client_id',
-            'secret': 'secret_id',
+            'client_id': '870211325236-2qcpg85nit77anbr8c1ea63rgvrus4ug.apps.googleusercontent.com',
+            'secret': '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',
             'key': ''
         },
         'SCOPE': ['profile', 'email'],
